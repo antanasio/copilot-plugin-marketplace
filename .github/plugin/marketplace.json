@@ -1,0 +1,18 @@
+{
+  "name": "antanasio-copilot-plugins",
+  "owner": {
+    "name": "Antans Big T"
+  },
+  "metadata": {
+    "description": "Copilot CLI plugins by antanasio",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "github-dev-toolkit",
+      "description": "GitHub PR review, issue triage, release notes, commit-message skills, safety hooks, and GitHub MCP integration.",
+      "version": "1.0.0",
+      "source": "./plugins/github-dev-toolkit"
+    }
+  ]
+}

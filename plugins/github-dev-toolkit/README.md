@@ -27,8 +27,8 @@ $env:GITHUB_PERSONAL_ACCESS_TOKEN = "github_pat_xxx"    # Windows PowerShell
 ## Install
 ```bash
 # from the marketplace
-copilot plugin marketplace add YOUR-ORG/copilot-plugin-marketplace
-copilot plugin install github-dev-toolkit@chenda-copilot-plugins
+copilot plugin marketplace add antanasio/copilot-plugin-marketplace
+copilot plugin install github-dev-toolkit@antanasio-copilot-plugins
 
 # or directly from a local checkout while developing
 copilot plugin install ./plugins/github-dev-toolkit
